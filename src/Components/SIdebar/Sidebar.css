@@ -1,0 +1,26 @@
+.side-bar-container{
+    width: 25%;
+    position: absolute;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+
+.sidebar-content{
+    text-overflow: ellipsis;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.sidebar-content:hover{
+    border: 1px solid black;
+}
+
+#side-bar-hello-msg{
+    background-color: #232f3f;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.navbar-container{
+    background-color: #121920;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.nav-bar-link{
+    height: 100%;
+    padding: 5px;
+    cursor: pointer;
+    border: 0.1px solid transparent;
+}
+
+.nav-bar-link:hover{
+    border: 0.1px solid white;
+}
+
+.search-bar-container{
+    width: 800px;
+}
+
+
+.search-bar-container:hover{
+    border: none;
+}
+
+#search-select{
+    height: 24px;
+}
+
+#search-bar{
+    height: 24px;
+    outline: none;
+}
+
+
+#search-submit-btn{
+    background-color: #fdbd69;
+    height: 23px;
+    border: none;
+}

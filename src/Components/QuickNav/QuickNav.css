@@ -1,0 +1,27 @@
+.quick-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #232f3f;
+    color: #fff;
+}
+
+.quick-nav-element{
+    border: 0.1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.quick-nav-element:hover{
+    border: 0.1px solid white;
+}
+
+#side-bar-icon{
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    color: white;
+    width: 50px;
+}
